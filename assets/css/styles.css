@@ -1,0 +1,243 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url("/assets/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.title-container {
+  position: relative;
+  text-align: center;
+  justify-content: space-between;
+  left: 300px;
+  margin-bottom: 340px;
+}
+
+.title {
+  font-size: 5em;
+  color: #ffffff;
+  margin: 80px 0;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 3em;
+  color: #ffffff;
+  margin: auto 0;
+  position: fixed;
+  top: 460px;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  left: 300px;
+}
+
+.ready {
+  font-size: 2em;
+  color: #ffffff;
+  height: 40px;
+  width: 343px;
+  background-color: rgba(71, 71, 71, 0.5);
+  padding: 20px; 
+  border-radius: 20px;
+  position: fixed;
+  bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  left: 300px;
+  text-align: left;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.container {
+  position: relative;
+  width: 52%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(51, 51, 51, 0.7),
+    rgba(0, 0, 0, 0.3)
+  );
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+.lang-button {
+  position: absolute;
+  top: -20px;
+  width: 100px;
+  left: 455px;
+  padding: 10px 20px;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-icon {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 1));
+}
+
+.lang-icon-arrow {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 1));
+}
+
+.lang-button:hover {
+  background: transparent;
+  
+}
+
+.form-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.form-title {
+  font-size: 50px;
+  margin-top: -100px;
+  color: #ffffff;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: -320px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: -220px;
+  margin-top: 1px;
+  height: 20px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  right: 400px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none; 
+  outline: none;
+}
+
+.password-container {
+  position: relative;
+  right: 15px;
+  width: 500px; 
+}
+
+.password-container input {
+  width: 500px; 
+  padding-right: 10px; 
+}
+.password-icon {
+  position: absolute;
+  top: 5px;
+  width: 40px; 
+  height: 47px; 
+  cursor: pointer;
+  right: 0px;
+
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+}
+
+label {
+  margin-top: 9px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 1em;
+  padding: 15px;
+  width: 500px;
+  top: 30px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  margin-top: 5px;
+  margin-bottom: 35px;
+  color: #ffffff;
+  
+  background: transparent; 
+  border-radius: 12px;
+  border: 1px solid rgba(114, 48, 48, 0.205);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.50);
+}
+
+
+input::placeholder {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-weight: 400; 
+  
+}
+
+input:focus {
+  outline: none;
+  background: linear-gradient(
+    to right,
+    rgba(68, 68, 68, 0.7),
+    rgba(39, 56, 87, 0.2)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.8);
+
+}
+
+
+button {
+  font-size: 1.2em;
+  padding: 15px 30px;
+  background-color: rgba(68, 154, 186, 0.7);
+  width: 500px;
+  color: white;
+  font-style: bold;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgba(60, 167, 206, 0.7);
+}
